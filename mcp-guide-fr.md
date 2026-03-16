@@ -39,4 +39,28 @@
 - **RAG** : récupération de documents avant réponse.  
 - **Embeddings** : représentation numérique de textes.  
 - **Guardrails** : règles de sécurité.  
-- **Prompt engineering
+- **Prompt engineering** : formulation des instructions.
+
+---
+
+## 6. Formules simples
+- **Accuracy** = bonnes réponses / total  
+- **Coût** = tokens × prix  
+- **Latence totale** = modèle + outils + réseau  
+
+---
+
+## 7. Architecture typique
+- LLM  
+- Serveur MCP  
+- Outils (API, services internes)  
+- Vector store  
+- Orchestration (framework agentique)
+
+---
+
+## 8. Questions utiles
+- Comment les outils sont-ils décrits dans le MCP ?  
+- Quelles optimisations réduisent les tokens ?  
+- Comment évaluez-vous la qualité des actions de l’agent ?  
+- Quels mécanismes de sécurité encadrent les outils ?  
